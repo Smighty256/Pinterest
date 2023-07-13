@@ -801,7 +801,7 @@ a:hover {
     border-radius: 2rem;
     margin-left: 1rem;
     /* background: url(./world.jpg); */
-    background-image: url(./world.jpg);
+    background-image: url(world.jpg);
     background-color: rgba(0, 0, 0, 0.658);
     background-size: cover;
     /* background-color: ;/ */
@@ -827,7 +827,7 @@ a:hover {
     height: 40vh;
     width: 17rem;
     border-radius: 2rem;
-    background-image: url(/card2.jpg);
+    background-image: url(card2.jpg);
     background-blend-mode: darken;
     /* margin-left: 10rem; */
 
@@ -848,7 +848,7 @@ a:hover {
     height: 40vh;
     width: 17rem;
     border-radius: 2rem;
-    background-image: url(/card3.jpg);
+    background-image: url(card3.jpg);
     /* margin-left: 4rem; */
 
 }
@@ -868,7 +868,7 @@ a:hover {
     height: 40vh;
     width: 17rem;
     border-radius: 2rem;
-    background-image: url(/card4.jpg);
+    background-image: url(card4.jpg);
     /* margin-left: 4rem; */
 
 }

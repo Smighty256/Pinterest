@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red    ; */
+    /* text-decoration: none; */
+    /* list-style: none; */
+}
+
+header {
+    /* background-color: aqua; */
+    height: 15vh;
+}
+
+header nav {
+    max-width: 95%;
+    height: 15vh;
+    margin: auto;
+    /* background-color: chartreuse; */
+}
+
+header nav ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    gap: 25px;
+    margin-top: 20px;
+    /* justify-content: space-evenly; */
+}
+
+header nav ul li:hover {
+    text-decoration: underline;
+}
+
+header nav ul li {
+    margin-top: 7px;
+    padding-right: 20px;
+    /* color: black; */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.btn1 {
+    color: white;
+    width: 4rem;
+    height: 5vh;
+    border-radius: 22px;
+    border-style: none;
+    background: rgba(255, 0, 0, 0.705);
+
+}
+
+
+.btn2 {
+    color: rgba(0, 0, 0, 0.658);
+    width: 5rem;
+    height: 5vh;
+    border-radius: 22px;
+    border-style: none;
+
+    /* background-color:  */
+}
+
+.btn1:hover {
+    background: rgba(212, 4, 4, 0.781);
+}
+
+.btn2:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+header nav h1 {
+    color: rgb(173, 14, 14);
+    font-size: 20px;
+    padding: 20 20px;
+    padding-left: 30px;
+}
+
+header nav img {
+    margin-top: 1px;
+}
+
+@media screen and (max-width:627px) {
+    header nav ul li {
+        display: none;
+    }
+}
+
+@media screen and (max-width:427px) {
+    /* header nav {
+        background-color: yellow;
+    } */
+
+    header nav ul .btn1:hover {
+        background-color: red;
+        color: green;
+    }
+
+    header nav ul .btn2:hover {
+        background-color: red;
+        color: green;
+        width: 10rem;
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width:309px) {
+    header nav ul .btn1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:609px) {
+    header nav {
+        display: flex;
+        justify-content: center;
+        /* background-color: aqua; */
+        gap: 20px;
+        /* padding-left: 4rem; */
+    }
+
+}
+
+
+/* secondpage/ */
+main {
+    overflow: hidden;
+}
+
+main .get {
+    font-size: 50px;
+    /* padding-left: 30rem; */
+    margin-top: 50px;
+}
+
+main img {
+    margin: 0 20px 0 0;
+    object-fit: cover;
+}
+
+span {
+    color: red;
+}
+
+main .img1 {
+    border-radius: 30px;
+    animation: move 1s infinite;
+}
+
+main .img2 {
+    border-radius: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-top: 8%;
+    animation: move 3s infinite;
+}
+
+main .img3 {
+    border-radius: 30px;
+    padding-top: 5%;
+    animation: move 2s infinite;
+}
+
+main .img4 {
+    border-radius: 30px;
+    padding-top: 8%;
+    animation: move 4s infinite;
+
+}
+
+main .img5 {
+    border-radius: 30px;
+    padding-top: 5%;
+    animation: move 3s infinite;
+}
+
+main .img6 {
+    border-radius: 30px;
+    animation: move 2s infinite;
+}
+
+main .img7 {
+    border-radius: 30px;
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(50px);
+    }
+
+    to {
+        transform: translateY(-0px);
+    }
+}
+
+@media screen and (max-width:513px) {
+    .d-flex {
+        padding-left: 5rem;
+    }
+}
+
+#sectionOne {
+    background-color: rgba(255, 255, 0, 0.5);
+    min-height: 107vh;
+    /* position: absolute; */
+    position: relative;
+    z-index: 1;
+}
+
+.sectionOneContent {
+    position: fixed;
+    position: relative;
+    width: 300px;
+    /* bottom: 25%; */
+}
+
+/* .sectionOneContent img:first-child {} */
+
+.sectionOneContent img:not(:first-child) {
+    position: absolute;
+    z-index: -1;
+}
+
+.sectionOneImg .center1 {
+
+    left: -8rem;
+    top: 4rem;
+    /* z-index: ; */
+
+}
+
+.sectionOneImg .center2 {
+
+    left: 11rem;
+    top: -4rem;
+}
+
+.sectionOneImg .center3 {
+
+    top: 16rem;
+    left: 12rem;
+}
+
+.search {
+    /* font-size: 60px; */
+    color: rgb(195, 25, 82);
+    font-size: 75px;
+}
+
+.search1 {
+    color: rgb(195, 25, 82);
+    font-size: 30px;
+    margin-right: 5rem;
+}
+
+.Explore {
+    background-color: rgb(195, 25, 82);
+    width: 5rem;
+    height: 5vh;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.Explore a {
+    color: rgba(255, 255, 0, 0.5);
+    text-decoration: none;
+}
+
+@media screen and (max-width:1100px) {
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:584px) {
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:574px) {
+    .sectionOneImg .center1 {
+        width: 400px;
+        margin-left: 10rem;
+        padding-top: 24rem;
+    }
+
+    .sectionOneText .search {
+        padding-top: 13rem;
+        min-width: 10px;
+        padding-left: 2rem;
+
+    }
+}
+
+@media screen and (max-width:435px) {
+    .sectionOneText .search {
+        width: 10px;
+    }
+}
+
+
+/* #sectionTwo {
+    background-color: rgba(0, 255, 255, 0.24);
+    height: 109vh;
+}
+
+.Save {
+    color: #006B6c;
+    font-size: 60px;
+}
+
+.collect {
+    color: #006B6c;
+    font-size: 25px;
+    margin-right: 2rem;
+}
+
+.sectionTwoText {
+    margin-top: 15rem;
+    padding-left: 12rem;
+}
+
+.Explore2 {
+    background-color: #006B6c;
+    ;
+    color: #006B6c;
+    width: 5rem;
+    height: 5vh;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.Explore2 a {
+    color: #ccF6EE;
+    text-decoration: none;
+} */
+
+/* .future{
+    padding-top: 6rem;
+    margin-left: 20rem;
+}
+.bedroom{
+    padding-left: 9rem;
+    padding-top: -8rem;
+}
+.deck{
+    margin-top: 24em;
+} */
+/* .bathroom {
+    margin-right: -37rem;
+    margin-top: 10rem;
+}
+
+.bedroom {
+    margin-left: 2rem;
+}
+
+.future {
+    margin-top: 4rem;
+   
+}
+
+.serve {
+    margin-top: 5rem;
+}
+
+.deck {
+    margin-top: 29rem;
+  
+} */
+/* #sectionTwo {
+    height: 100vh;
+    overflow: hidden;
+    background-color: powderblue;
+} */
+/* #sectionTwo .sectionTwoWrap{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 7%;
+}
+#sectionTwo .sectionTwoImg .bigimage{
+    position: relative;
+}
+#sectionTwo .sectionTwoImg .text-decoration-none{
+    position: absolute;
+    z-index: 9999;
+    right: 20rem;
+    top: 8rem;
+}
+.scand{
+    left: 27rem;
+    bottom: 11rem;
+    width: 14rem;
+} */
+/* .img-right {
+    padding: 30px;
+    background-image: url(./future-home-vibes-55a673b9.png);
+} */
+/* .sectionTwoImg { */
+    /* position: relative; */
+/* } */
+
+/* .img-right {
+    position: relative;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin-right: 30rem;
+}
+.img-right a:last-child {
+    position: absolute;           
+}
+.smallImg {
+    position: relative;
+    display: flex;
+    align-items: center; 
+
+    background-repeat: no-repeat;
+    width: 300px;
+    background-image: url(scandinavian-bedroom-917ad89c.png); 
+}
+.smallImg img {
+     position: absolute; 
+}
+/* .smallImg p {
+    position: absolute;
+    
+    top: 50%; 
+} */
+/* .scand{
+    margin-left: 29rem;
+    margin-top: -25rem; */
+/* background-image: url(scandinavian-bedroom-917ad89c.png); */
+/* }
+ .scand p{
+    position: absolute;
+    top: rem;
+    right: 9rem;
+} */
+
+/* .deck{
+    
+    right: 4rem;
+    top: 20rem;
+} 
+#sectionTwo .sectionTwoImg .deck p{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+ .serve{
+    
+    left: 150px;
+    margin-bottom: 30;
+}
+#sectionTwo .sectionTwoImg .serve p{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+#sectionTwo .sectionTwoImg .upgrade{
+    position: absolute;
+    right: -80px;
+    margin-top: 120px;
+}
+#sectionTwo .sectionTwoImg .upgrade p{
+    position: absolute;
+    top: 10px;
+}   */
+#section-ideas {
+    background-color: powderblue;
+    height: 100vh;
+}
+
+#section-ideas main.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding-left: 70px;
+    background-color: powderblue;
+    /* overflow: hidden; */
+
+}
+
+#section-ideas main.section-content .content-left {
+    text-align: center;
+
+}
+
+#section-ideas main.section-content .content-left h1 {
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+section#section-ideas main.section-content .content-left h3 {
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+section#section-ideas main.section-content .content-left a {
+    position: relative;
+}
+
+section#section-ideas main.section-content .content-left a img:first-of-type::before {
+    position: absolute;
+    content: 'Fern future home vibes';
+    font-size: 50px;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 40;
+}
+
+section#section-ideas main.section-content .content-left button {
+    /* padding: 15px; */
+    width: 112px;
+    /* max-height: 5vh; */
+    border-radius: 40px;
+    border-style: none;
+    background-color: #006b6c;
+    font-size: 18px;
+}
+
+section#section-ideas main.section-content .content-left button a {
+    text-decoration: none;
+    color: #ccf6ee;
+}
+
+@media screen and (max-width:1101px) {
+    #section-ideas main.section-content .content-left .images-top {
+        flex-wrap: wrap;
+    }
+
+    .my-dream {
+        /* margin-right: 6rem;
+        bottom: 0; */
+        display: none;
+    }
+}
+
+@media screen and (max-width:689px) {
+    #section-ideas main.section-content .content-left .save {
+
+
+        /* width: 400px; */
+        /* margin-left: 10rem; */
+        padding-top: 34rem;
+
+        /* margin-right: 4rem; */
+    }
+}
+
+@media (max-width:690px) {
+    #section-ideas.content-left .save {
+        display: block;
+    }
+}
+
+.id {
+    background-image: url("shop-bd0c8a04.png");
+    background-size: cover;
+    height: 160vh;
+    width: 10em;
+    justify-items: center;
+    margin: auto;
+}
+.container-fluid{
+    background-color: rgb(255,226,235);
+}
+
+.favorites {
+    background-color:#c32f00;
+    width: 5rem;
+    height: 5vh;
+    border-radius: 20px;
+    border-style: none;
+}
+.favorites a{
+    text-decoration: none;
+    color: rgb(255, 226, 235);
+}
+
+#SectionFour{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.404)),url(Savory-featured-1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 90vh;
+}

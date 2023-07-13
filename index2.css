@@ -1,0 +1,1082 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 1px solid red; */
+
+}
+
+
+/* .image {
+    margin-left: 1rem;
+} */
+
+header nav {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    max-width: 100%;
+    /* height: 15vh; */
+    /* margin: auto; */
+    /* background-color: aqua; */
+    /* gap: 1rem; */
+
+}
+
+header nav ul {
+    display: flex;
+    /* padding-top: 0.7em; */
+    /* gap: 1rem; */
+    font-size: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    font-weight: 600;
+    border-top: none;
+    border-left: none;
+    border-right: red;
+    border-bottom: 10px;
+    border: 4px solid black;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header nav ul li a:hover {
+    /* color: rgba(0, 0, 0, 0.9); */
+    background-color: rgba(0, 0, 0, 0.116);
+    border-radius: 1rem;
+
+}
+
+header nav input {
+    width: 50vw;
+    height: 3.2rem;
+    border-radius: 4rem;
+    border-style: solid;
+    margin-left: 2rem;
+    /* position: relative; */
+}
+
+header nav input::placeholder {
+    font-size: 17px;
+    padding-left: 3rem;
+    padding-top: 3.9rem;
+    color: rgba(0, 0, 0, 0.082);
+    font-weight: 600;
+}
+
+.icon {
+    position: absolute;
+    top: 24px;
+    left: 405px;
+    width: 40px;
+}
+
+.bi-chevron-down {
+    color: black;
+    font-size: 20px;
+}
+
+#drop-down {
+    border: none;
+}
+
+/* .btn-group{
+    width: 90px;
+} */
+.dropdown-item {
+    font-size: 20px;
+
+}
+
+header nav .but {
+    padding: 12px 17px;
+    margin-left: 2rem;
+}
+
+header nav .button1 {
+    color: rgba(0, 0, 0, 0.658);
+    width: 5rem;
+    height: 8vh;
+    border-radius: 29px;
+    border-style: none;
+}
+
+header nav .button1:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+header nav .button1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* .button {
+    margin-left: 190px;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+} */
+
+header nav .button2 {
+    color: white;
+    width: 5rem;
+    font-weight: 600;
+    /* height: 8vh; */
+    /* margin-right: 3rem; */
+    border-radius: 26px;
+    border-style: none;
+    background-color: rgba(255, 0, 0, 0.808);
+
+}
+
+header nav .button2:hover {
+    background: rgba(212, 4, 4, 0.781);
+}
+
+header nav .button2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.Explore {
+    background-color: rgba(0, 0, 0, 0.075);
+    /* margin-top: 1rem; */
+    width: 4rem;
+    height: 4vh;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.Explore a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.food {
+
+    font-size: 2.2rem;
+    margin-top: -2rem;
+}
+
+.Discover {
+    font-size: 1rem;
+    margin-top: -2rem;
+    text-align: justify;
+}
+
+.Featured {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+    /* position: relative; */
+    /* border-radius: 3rem; */
+    /* margin-left: 20rem; */
+
+
+.img2 {
+    border-radius: 3rem;
+}
+
+.img3 {
+    border-radius: 3rem;
+}
+
+.d-flex .full {
+    position: relative;
+
+    margin-top: 3rem;
+}
+
+.image-content {
+    position: relative;
+    left: 6rem;
+}
+
+.image-content {
+    /* position: absolute; */
+    border-radius: 3rem;
+    width: 450px;
+    height: 50vh;
+    /* max-width: 100%; */
+    /* margin-left: 3rem; */
+    background-image: url(/chocolate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.527);
+    /* height: auto; */
+
+}
+
+.image-content:hover {
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.image1 {
+    position: absolute;
+    left: 28rem;
+    border-radius: 3rem;
+    width: 450px;
+    height: 50vh;
+    background-image: url(/rost.jpg);
+}
+
+.image-content p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+
+}
+
+.image-content h1 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.cook2 {
+    position: absolute;
+    left: 4rem;
+
+    /* margin-right: 5rem; */
+    color: white;
+}
+
+.image2 {
+    position: absolute;
+    left: 54rem;
+    border-radius: 3rem;
+    width: 450px;
+    height: 50vh;
+    background-image: url(/ice\ cream.jpg);
+    background-size: cover;
+
+}
+
+/* .container .img2 {
+    margin-right: 20rem; */
+/* } */
+
+.Summertime {
+    position: relative;
+
+    /* font-size: 1.5rem; */
+    font-weight: 80px;
+    color: white;
+    /* left: 30px; */
+}
+
+.image-content .cook {
+    position: absolute;
+    left: 50%;
+    font-size: 1rem;
+    top: 74%;
+    font-weight: 80px;
+    color: white;
+
+
+}
+
+.ice {
+    position: absolute;
+    color: white;
+    top: 82%;
+    left: 3%;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.articles {
+    background-color: rgba(0, 0, 0, 0.164);
+    margin-bottom: -5rem;
+    width: 12rem;
+    height: 6vh;
+    border-radius: 28px;
+    border-style: none;
+}
+
+.articles a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.articles:hover {
+    background-color: rgba(0, 0, 0, 0.267);
+    text-decoration: none;
+}
+
+
+/* sectionOne */
+#wrapper {
+    margin-left: 90px;
+}
+
+
+.Find {
+    margin-top: 2rem;
+
+}
+
+/* .img1{
+    
+    height: 55vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/world.jpg);
+    background-repeat: no-repeat;
+    width: 30rem;
+    border-radius: 3rem;
+    margin-left: 4rem;
+    
+} */
+.card-content:hover {
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.card-content {
+    position: relative;
+}
+
+.card-content {
+    height: 40vh;
+    width: 21rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    /* background: url(./world.jpg); */
+    background-image: url(./world.jpg);
+    background-color: rgba(0, 0, 0, 0.658);
+    background-size: cover;
+    /* background-color: ;/ */
+    background-blend-mode: darken;
+    margin: 0 !important;
+}
+
+
+.card-content h3 {
+    position: absolute;
+    font-size: 18px;
+    top: 57%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+    /* position: absolute;
+    top: 9rem;
+    left: 4rem;
+    color: white; */
+
+
+.card1 {
+    position: relative;
+}
+
+.card1 {
+    height: 40vh;
+    width: 21rem;
+    border-radius: 2rem;
+    background-image: url(/card2.jpg);
+    background-blend-mode: darken;
+    /* margin-left: 10rem; */
+
+}
+
+.card1-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.card2 {
+    position: relative;
+}
+
+.card2 {
+    height: 40vh;
+    width: 21rem;
+    border-radius: 2rem;
+    background-image: url(/card3.jpg);
+    /* margin-left: 4rem; */
+
+}
+
+.card2-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.card3 {
+    position: relative;
+}
+
+.card3 {
+    height: 40vh;
+    width: 21rem;
+    border-radius: 2rem;
+    background-image: url(/card4.jpg);
+    /* margin-left: 4rem; */
+
+}
+
+.card3-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.card4 {
+    position: relative;
+}
+
+.card4 {
+    width: 21rem;
+    height: 40vh;
+    border-radius: 2rem;
+    /* margin-left: 4rem; */
+
+}
+
+.card4-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.d-flex {
+    /* position: relative; */
+    margin-top: 3rem;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+/* sectionTwo */
+
+#sectionTwo {
+    margin-left: 40px;
+}
+
+.Discover1 {
+    font-size: 1.8rem;
+    height: 10vh;
+}
+
+/* .Delk {
+    border: 2px solid black;
+    width: 31.5rem;
+    height: 47vh;
+    margin-left: 10%;
+    border-radius: 2rem;
+    background-color: #ffe4c1;
+    border-style: none;
+
+}
+
+.Delk1 {
+    border: 2px solid black;
+    width: 31.5rem;
+    height: 47vh;
+    margin-left: 10%;
+    border-radius: 2rem;
+    background-color: #ffe4c1;
+    border-style: none;
+}
+.Delk2 {
+    border: 2px solid black;
+    width: 31.5rem;
+    height: 47vh;
+    margin-left: 10%;
+    border-radius: 2rem;
+    background-color: #ffe4c1;
+    border-style: none;
+} */
+
+
+
+
+.Delk,
+.Delk1,
+.Delk2 {
+    width: 420px;
+    height: 350px;
+    background-color: #ffe4c1;
+    border-radius: 2rem;
+}
+
+.Delk1,
+.Delk2 {
+    background-color: rgb(215, 237, 255);
+}
+
+
+
+/* .delkWrapper{
+
+} */
+.Delk>.box {
+    padding: 10px;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+
+}
+
+.Delk {
+    display: grid;
+    grid-template-columns: repeat(3, 115px);
+    grid-auto-rows: minmax(39px, auto);
+    grid-gap: 10px;
+}
+
+.box:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/6;
+}
+
+.box:nth-child(2) {
+    grid-row: 1/3;
+}
+
+.box:nth-child(3) {
+    grid-row: 3/6;
+}
+
+.cake {
+    background-color: #ffe4c1 !important;
+    border-style: none;
+}
+
+.slow {
+    position: relative;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.lobster {
+    position: relative;
+    top: 2rem;
+    /* width: 10rem; */
+
+}
+
+.card {
+    border: 0 !important;
+    background-color: none !important;
+}
+
+.Delk1>.box {
+    padding: 10px;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+
+}
+
+.Delk1 {
+    display: grid;
+    grid-template-columns: repeat(3, 115px);
+    grid-auto-rows: minmax(39px, auto);
+    grid-gap: 10px;
+}
+
+.box:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/6;
+}
+
+.box:nth-child(2) {
+    grid-row: 1/3;
+}
+
+.box:nth-child(3) {
+    grid-row: 3/6;
+}
+
+.dish {
+    position: relative;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.dish1 {
+    position: relative;
+    top: 2rem;
+}
+
+
+
+.Delk2>.box {
+    padding: 10px;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+
+}
+
+.Delk2 {
+    display: grid;
+    grid-template-columns: repeat(3, 115px);
+    grid-auto-rows: minmax(39px, auto);
+    grid-gap: 10px;
+}
+
+.box:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/6;
+}
+
+.box:nth-child(2) {
+    grid-row: 1/3;
+}
+
+.box:nth-child(3) {
+    grid-row: 3/6;
+}
+
+.burger {
+    position: relative;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.burger1 {
+    position: relative;
+    top: 2rem;
+}
+
+/* sectionThree */
+.Top {
+    font-size: 1.8rem;
+    height: 10vh;
+    margin-top: 2rem;
+}
+
+.PAN {
+    margin-top: 1rem;
+}
+
+.fw-bold a {
+    text-decoration: none;
+    color: black;
+}
+
+#sectionThree .card-food {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    /* justify-items: center; */
+}
+
+#sectionThree .card-food>a {
+    width: 240px;
+    height: 350px;
+    /* background-color: red; */
+    /* background-image: url(vanila.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.6)100%), url(vanila.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+#sectionThree .card-food .valilla {
+    width: 14em;
+    height: 14em;
+    background: linear-gradient(rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.6)100%), url(pav.jpg);
+    background-size: cover;
+}
+
+#sectionThree .card-food .pav {
+    background: linear-gradient(rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.6)100%), url(meat.jpg);
+    background-size: cover;
+}
+
+#sectionThree .card-food .caramel {
+    background: linear-gradient(rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.6)100%), url(caramel.jpg);
+    background-size: cover;
+}
+
+#sectionThree .card-food .pan {
+    background: linear-gradient(rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.6)100%), url(pan.jpg);
+    background-size: cover;
+
+}
+
+
+    /* position: relative;
+    top: 2rem;
+    left: 3rem; */
+
+
+.van a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hide {
+    background-color: rgba(0, 0, 0, 0.164);
+    position: relative;
+    /* bottom: 3rem; */
+    margin-bottom: -5rem;
+    width: 12rem;
+    height: 6vh;
+    border-radius: 28px;
+    border-style: none;
+}
+
+.hide a {
+    text-decoration: none;
+    /* margin-top: 5rem; */
+    color: black;
+    font-weight: 600;
+}
+
+.More {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    height: 10vh;
+}
+
+.life {
+    font-size: 16px;
+}
+
+.best,
+a {
+    /* margin-bottom: 4rem; */
+    left: 10px;
+    /* bottom: 20px; */
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* #wrapper {
+    margin-left: 120px;
+} */
+.data-content:hover {
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.data-content {
+    position: relative;
+}
+
+.data-content {
+    height: 40vh;
+    width: 17rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    /* background: url(./world.jpg); */
+    background-image: url(./world.jpg);
+    background-color: rgba(0, 0, 0, 0.658);
+    background-size: cover;
+    /* background-color: ;/ */
+    background-blend-mode: darken;
+    margin: 0 !important;
+}
+
+
+.data-content h3 {
+    position: absolute;
+    font-size: 18px;
+    top: 57%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.data1 {
+    position: relative;
+}
+
+.data1 {
+    height: 40vh;
+    width: 17rem;
+    border-radius: 2rem;
+    background-image: url(/card2.jpg);
+    background-blend-mode: darken;
+    /* margin-left: 10rem; */
+
+}
+
+.data1-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.data2 {
+    position: relative;
+}
+
+.data2 {
+    height: 40vh;
+    width: 17rem;
+    border-radius: 2rem;
+    background-image: url(/card3.jpg);
+    /* margin-left: 4rem; */
+
+}
+
+.data2-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.data3 {
+    position: relative;
+}
+
+.data3 {
+    height: 40vh;
+    width: 17rem;
+    border-radius: 2rem;
+    background-image: url(/card4.jpg);
+    /* margin-left: 4rem; */
+
+}
+
+.data3-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+.data4 {
+    position: relative;
+}
+
+.data4 {
+    width: 17rem;
+    height: 40vh;
+    border-radius: 2rem;
+    /* margin-left: 4rem; */
+
+}
+
+.data4-text {
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    color: white;
+}
+
+
+.icon2 {
+    position: absolute;
+
+    width: 40px;
+}
+
+/* .but1 {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 29px;
+    width: 10rem;
+    height: 5vh;
+    border-style: none;
+} */
+
+.but1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.Mexican {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 13rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+    /* padding: 1.5em; */
+}
+
+.Mexican a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.mexi {
+
+    width: 40px;
+
+}
+
+.Peach {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 13rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+}
+
+.Peach a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.pea {
+    width: 40px;
+}
+
+.Strawberry {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 14rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+}
+
+.Strawberry a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.straw {
+    width: 40px;
+}
+
+.Baked {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 13rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+}
+
+.Baked a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.baked {
+    width: 40px;
+}
+
+.Potatoes {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 17rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+}
+
+.Potatoes a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.potatoes {
+    width: 40px;
+}
+
+.Corn {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 17rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+}
+
+.Corn a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.corn {
+    width: 40px;
+}
+
+.Sugar {
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    width: 13rem;
+    height: 9vh;
+    border-style: none;
+    text-decoration: none;
+}
+
+.Sugar a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+.sugar{
+    width: 40px;
+}
+.Wrapper1:hover{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.hide:hover{
+    text-decoration: none;
+}
+@media (max-width:1000px){
+    .button1{
+        display: none;
+    }
+    .button2{
+        display: none;
+    }
+}
+
+
+@media (max-width:930px){
+    header nav ul li a{
+        display: none;
+    }
+   .icon{
+   display: none;
+   }
+   .full{
+    flex-wrap: wrap;
+   }
+}

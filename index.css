@@ -406,7 +406,7 @@ main .img7 {
     background-image: url(./future-home-vibes-55a673b9.png);
 } */
 /* .sectionTwoImg { */
-    /* position: relative; */
+/* position: relative; */
 /* } */
 
 /* .img-right {
@@ -568,6 +568,24 @@ section#section-ideas main.section-content .content-left button a {
     }
 }
 
+@media (max-width:1064px) {
+    .col-6 {
+        margin-bottom: 3em;
+    }
+}
+
+@media (max-width:768px) {
+    .col-6 {
+        margin-bottom: 4em;
+    }
+}
+
+@media (max-width:864px) {
+    .background {
+        display: block;
+    }
+}
+
 .id {
     background-image: url("shop-bd0c8a04.png");
     background-size: cover;
@@ -576,28 +594,109 @@ section#section-ideas main.section-content .content-left button a {
     justify-items: center;
     margin: auto;
 }
-.container-fluid{
-    background-color: rgb(255,226,235);
+
+.container-fluid {
+    background-color: rgb(255, 226, 235);
 }
 
 .favorites {
-    background-color:#c32f00;
+    background-color: #c32f00;
     width: 5rem;
     height: 5vh;
     border-radius: 20px;
     border-style: none;
 }
-.favorites a{
+
+.favorites a {
     text-decoration: none;
     color: rgb(255, 226, 235);
 }
 
-#SectionFour{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.404)),url(Savory-featured-1.jpg);
+.SectionFour {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.804)), url(Savory-featured-1.jpg);
     background-size: cover;
     background-position: center;
     /* background-size: cover; */
     background-repeat: no-repeat;
     /* width: 100vw; */
-    height: 90vh;
+    height: 100vh;
 }
+
+.container {
+    border: 1px solid white;
+    height: 100vh;
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 29px;
+    align-items: center;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    /* padding: 10 50 50 80px; */
+}
+
+.SectionFour h1 {
+    font-size: 70px;
+    margin-top: 3em;
+    color: white;
+}
+
+.Email {
+    /* margin-left: 5em; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Email2 {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.Password2 {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.password {
+    /* margin-left: 5em; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.button {
+    margin-top: 1em;
+    width: 296px;
+    height: 6vh;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(230, 0, 35);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(230, 0, 35, 0.89);
+}
+
+.button1 {
+    margin-top: 1em;
+    width: 296px;
+    height: 6vh;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(24, 119, 242);
+    color: white;
+}
+
+.button2 {
+    margin-top: 1em;
+    width: 296px;
+    height: 6vh;
+    border-radius: 20px;
+    /* border-style: none; */
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* .bi{
+    background: linear-gradient(red,white red);
+} */

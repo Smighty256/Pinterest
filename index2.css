@@ -215,7 +215,7 @@ header nav .button2 a {
     height: 50vh;
     /* max-width: 100%; */
     /* margin-left: 3rem; */
-    background-image: url(/chocolate.jpg);
+    background-image: url(chocolate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -234,7 +234,7 @@ header nav .button2 a {
     border-radius: 3rem;
     width: 450px;
     height: 50vh;
-    background-image: url(/rost.jpg);
+    background-image: url(rost.jpg);
 }
 
 .image-content p {
@@ -273,7 +273,7 @@ header nav .button2 a {
     border-radius: 3rem;
     width: 450px;
     height: 50vh;
-    background-image: url(/ice\ cream.jpg);
+    background-image: url(ice\ cream.jpg);
     background-size: cover;
 
 }
@@ -368,7 +368,7 @@ header nav .button2 a {
     border-radius: 2rem;
     margin-left: 1rem;
     /* background: url(./world.jpg); */
-    background-image: url(./world.jpg);
+    background-image: url(world.jpg);
     background-color: rgba(0, 0, 0, 0.658);
     background-size: cover;
     /* background-color: ;/ */
@@ -400,7 +400,7 @@ header nav .button2 a {
     height: 40vh;
     width: 21rem;
     border-radius: 2rem;
-    background-image: url(/card2.jpg);
+    background-image: url(card2.jpg);
     background-blend-mode: darken;
     /* margin-left: 10rem; */
 
@@ -421,7 +421,7 @@ header nav .button2 a {
     height: 40vh;
     width: 21rem;
     border-radius: 2rem;
-    background-image: url(/card3.jpg);
+    background-image: url(card3.jpg);
     /* margin-left: 4rem; */
 
 }
@@ -441,7 +441,7 @@ header nav .button2 a {
     height: 40vh;
     width: 21rem;
     border-radius: 2rem;
-    background-image: url(/card4.jpg);
+    background-image: url(card4.jpg);
     /* margin-left: 4rem; */
 
 }

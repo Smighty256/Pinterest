@@ -580,24 +580,26 @@ section#section-ideas main.section-content .content-left button a {
     }
 }
 
-@media (max-width:864px) {
-    .background {
-        display: block;
+@media (max-width:1000px) {
+    .crator{
+        display: flex;
+        flex-direction: column;
     }
 }
 
+
 .id {
-    background-image: url("shop-bd0c8a04.png");
+    /* background-image: url("shop-bd0c8a04.png");
     background-size: cover;
     height: 160vh;
     width: 10em;
     justify-items: center;
-    margin: auto;
+    margin: auto; */
 }
 
-.container-fluid {
+/* .container-fluid {
     background-color: rgb(255, 226, 235);
-}
+} */
 
 .favorites {
     background-color: #c32f00;

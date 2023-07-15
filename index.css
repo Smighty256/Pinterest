@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red    ; */
+    /* border: 1px solid red; */
     /* text-decoration: none; */
     /* list-style: none; */
 }
@@ -581,11 +581,118 @@ section#section-ideas main.section-content .content-left button a {
 }
 
 @media (max-width:1000px) {
-    .crator{
+    .crator {
         display: flex;
         flex-direction: column;
     }
 }
+
+@media (max-width:547px) {
+    .sectionOneImg .center1 {
+        width: 200px;
+        margin-top: -4rem;
+    }
+}
+
+@media (max-width:320px) {
+    .sectionOneImg .center1, .center2, .center3{
+        width: 100px;
+        margin-top: -4rem;
+    }
+}
+@media (max-width:320px){
+    .sectionOneImg .centerimage{
+     position: relative;
+     right: 3rem;
+     top: 4rem;     
+
+    }
+}
+@media (max-width:320px){
+    .sectionOneImg .center2{
+        margin-left: -4rem;
+        margin-top: 4rem;
+    }
+}
+@media (max-width:320px){
+    .sectionOneImg .center3{
+        margin-left: -3rem;
+    }
+}
+@media (max-width:320px){
+    .search{
+        /* display: flex; */
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width:438px) {
+    .sectionOneImg .centerimage {
+        position: relative;
+        right: 3rem;
+        top: 4rem;
+        
+
+    }
+}
+@media (max-width:438px) {
+    .sectionOneImg .center2 {
+        margin-left: -4rem;
+        margin-top: 4rem;
+    }
+}
+@media (max-width:438px) {
+    .sectionOneImg .center3 {
+        margin-left: -3rem;
+        margin-top: -2rem;
+    }
+}
+@media (max-width:440px) {
+    .sectionOneImg .centerimage {
+        position: relative;
+        right: 3rem;
+        top: 4rem;
+
+
+    }
+}
+
+@media (max-width:440px) {
+    .sectionOneImg .center2 {
+        margin-left: -4rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:440px) {
+    .sectionOneImg .center3 {
+        margin-left: -3rem;
+        margin-top: -2rem;
+    }
+}
+@media (max-width:376px) {
+    .sectionOneImg .centerimage {
+        position: relative;
+        right: 3rem;
+        top: 4rem;
+
+
+    }
+}
+
+@media (max-width:376px) {
+    .sectionOneImg .center2 {
+        margin-left: -4rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:376px) {
+    .sectionOneImg .center3 {
+        margin-left: -5rem;
+        margin-top: -2rem;
+    }
+}
+
 
 
 .id {
@@ -699,6 +806,7 @@ section#section-ideas main.section-content .content-left button a {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 /* .bi{
     background: linear-gradient(red,white red);
 } */

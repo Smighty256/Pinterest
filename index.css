@@ -514,13 +514,13 @@ section#section-ideas main.section-content .content-left a {
 }
 
 section#section-ideas main.section-content .content-left a img:first-of-type::before {
-    position: absolute;
+    /* position: absolute;
     content: 'Fern future home vibes';
     font-size: 50px;
     color: white;
     top: 0;
     left: 0;
-    z-index: 40;
+    z-index: 40; */
 }
 
 section#section-ideas main.section-content .content-left button {
@@ -690,6 +690,31 @@ section#section-ideas main.section-content .content-left button a {
     .sectionOneImg .center3 {
         margin-left: -5rem;
         margin-top: -2rem;
+    }
+}
+@media (max-width:523px){
+    .content-left .big{
+        width: 200px;
+        margin-left: -2.5rem;
+    }
+}
+@media (max-width:510px) {
+    .content-left .big {
+        width: 200px;
+        margin-left: -9rem;
+    }
+}
+@media (max-width:456px) {
+    .content-left .bottom-0 {
+        margin-right: 2rem;
+        justify-content: center;
+        /* width: 200px; */
+        /* margin-left: -9rem; */
+    }
+}
+@media (max-width:402px){
+    .SectionFour .signup{
+        margin-top: -1rem;
     }
 }
 
